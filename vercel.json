@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/p/(.*)", "destination": "/api/p/flask_example" }
+      { "source": "/p/:match*", "destination": "/api/p/flask_example" }
     ]
 }
   
